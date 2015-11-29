@@ -1,0 +1,5 @@
+Execute, as VimScript, the line under the cursor.
+
+Exposed with <leader>@
+
+Works with repeat.vim
