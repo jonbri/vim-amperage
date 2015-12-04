@@ -1,5 +1,24 @@
-Execute, as VimScript, the line under the cursor.
+*amperage.txt*  Execute commands/macros fast
 
-Exposed with <leader>@
+Author:  Jonathan Brink
+License: Same terms as Vim itself (see |license|)
 
-Works with repeat.vim
+INTRODUCTION                                    *amperage*
+
+Mappings to execute VimScript lines and macro's fast and repeatable
+
+                                                *amperage-<leader> @*
+<leader>@                      Execute VimScript line under cursor
+                               Works with repeat.vim
+
+                                                *amperage-<leader> q*
+<leader>q                      Repeate macro in the "q" register
+                               Works with repeat.vim
+
+ABOUT                                           *amperage-about*
+
+Grab the latest version or report a bug on GitHub:
+
+https://github.com/jonbri/vim-amperage
+
+ vim:tw=78:et:ft=help:norl:
